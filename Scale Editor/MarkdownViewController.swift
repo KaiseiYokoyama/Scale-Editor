@@ -10,19 +10,25 @@ import UIKit
 import Notepad
 
 class MarkdownViewController: UIViewController {
+    
+    var scale : Scale = ScaleRoot.root
+    var notepad: Notepad!
 
-    @IBOutlet weak var tabItem: UITabBarItem!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.title = scale.title
+        
         // Do any additional setup after loading the view.
         let path = Bundle.main.path(forResource: "one-light-custom", ofType: "json")
         let theme = Theme(themePath: path!)
 
-        let notepad = Notepad(frame: view.bounds, theme: theme)
+        notepad = Notepad(frame: view.bounds, theme: theme)
         view.addSubview(notepad)
+    }
+    
+    func setMarkdown(_ markdown: String) {
+        notepad.text = markdown
     }
     
 

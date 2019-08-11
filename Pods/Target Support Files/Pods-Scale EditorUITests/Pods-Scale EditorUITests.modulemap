@@ -1,0 +1,6 @@
+framework module Pods_Scale_EditorUITests {
+  umbrella header "Pods-Scale EditorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

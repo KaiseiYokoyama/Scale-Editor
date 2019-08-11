@@ -4,3 +4,20 @@
 //
 
 import Foundation
+
+class ScaleRoot: Scale {
+    static let root = ScaleRoot()
+
+    override var parent: Scale? {
+        get {
+            return nil
+        }
+        set {
+            print("[Scale Editor] It is not accepted to set ScaleRoot.parent")
+        }
+    }
+
+    private init() {
+        super.init(parent: nil, children: [])
+    }
+}

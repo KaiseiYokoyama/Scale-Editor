@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF5CA98EC237762599F5102933D6F49 /* Pods-Scale EditorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23662105AA9F5DE2E83F52371E2116DD /* Pods-Scale EditorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E49171E8EA70B558CBCFEAB115607B0 /* one-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 4234DA945C8428A332AD67F79D8EB89D /* one-dark.json */; };
+		31EA108C8235593AD537EB8F446450AF /* base16-tomorrow-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = ED3C064374D08D8FFCC65BD26D9F0B7D /* base16-tomorrow-dark.json */; };
+		33BA76B33903322EAE94B5A2B7545E0A /* Pods-Scale EditorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8CC50E629E22AC66CA7BE71CFC0C4 /* Pods-Scale EditorTests-dummy.m */; };
+		35D2CEFE7B1213C915C2F4C7C0198BCF /* base16-tomorrow-light.json in Resources */ = {isa = PBXBuildFile; fileRef = 95F8FD634CB612AF34DF2696607A61F4 /* base16-tomorrow-light.json */; };
+		3F586C0C041196EF85A70B12C2FC6CD1 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66F1649736D6D0441430A006CE1C30 /* Element.swift */; };
+		495A978924811A270260CF7058CB2B5E /* solarized-light.json in Resources */ = {isa = PBXBuildFile; fileRef = EEA4BF755823783D723AF27279148408 /* solarized-light.json */; };
+		4C457A3CB9474FA188ABC3540A6D33DE /* one-light.json in Resources */ = {isa = PBXBuildFile; fileRef = 0444934AC9491A9FA0B9647735F07CC9 /* one-light.json */; };
+		517268B44B296D4EA63B981E04A125D3 /* solarized-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CB22823A98033EC4228C51A1E8640C7 /* solarized-dark.json */; };
+		5D7D4B969A114B9C0B2E4C8774824599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5FCEE75DA8E785AE22244F49F50B466D /* Notepad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD832A7F4D962CAE574AB6165B84B8FF /* Notepad-dummy.m */; };
+		647D53FD07966A70F33E1A19B59772F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		662140694E11C22A67A57F99FF76514D /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0894D5F472E9868FEBF5E208E07527 /* Style.swift */; };
+		6AC50EA2278FFB5EB43FB32650653EA4 /* Notepad-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1905641190EA65BDDCF2D3C3CCE41C7 /* Notepad-iOS.swift */; };
+		6E7F1CF95B3FD386EA5942230435606E /* one-dark-custom.json in Resources */ = {isa = PBXBuildFile; fileRef = 222FAA6EB6DEAAAE0CAD99FBC6BFEFC3 /* one-dark-custom.json */; };
+		6FAB58B865904D227B18F78DBD548688 /* UniversalTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE81BD7C2BD802B59827034E91F6B0D /* UniversalTypes.swift */; };
+		763E7C46D63BAD9BC16AE05C1C95216C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A79622E6263B01EF7DC895A01292A9 /* Extensions.swift */; };
+		7CF6EC981F28005608E5388E681749E8 /* one-light-custom.json in Resources */ = {isa = PBXBuildFile; fileRef = 0223DEE8035D3737F9C0C97C7A91DB21 /* one-light-custom.json */; };
+		8717D3166F62378A9132B6AFA75AE50F /* Notepad-macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2BAF8262951C45E146324E402B693 /* Notepad-macOS.swift */; };
+		919356315D2914873872A2802BF9D897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9B90248DAB7C82444AE573FC6B0278D0 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A711C50BD948399C245E0D0C2213D95 /* Storage.swift */; };
+		A460B5F10D0D65945C5B3345D9CA9B8E /* Pods-Scale EditorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 255C9A6085592442342F757AA6A29B45 /* Pods-Scale EditorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF3659F78E132B6BDA3EFB06A4818797 /* Notepad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1272B21A5BC401923AD577D55E402053 /* Notepad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09D1B4916F37C51BC161D343313045F /* Pods-Scale Editor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 275BBFBFD010225815E13ABEBF9C034B /* Pods-Scale Editor-dummy.m */; };
+		C246915E99AD2A7838291914E97A9E89 /* Pods-Scale EditorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD76EE3642B55B75BE253C420301D59 /* Pods-Scale EditorUITests-dummy.m */; };
+		C659A2E8AD001F044521B44D667E5469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C71D3E7BD8676EA396D9162F54C4EC2A /* blues-clues.json in Resources */ = {isa = PBXBuildFile; fileRef = D3F4169E8D0FAE32FCDE410D37AB0500 /* blues-clues.json */; };
+		DD44E8ED3FC533FE3EF0BB3B4DBC8D6A /* Pods-Scale Editor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 228878761559453E09AE3FC8510B5AC6 /* Pods-Scale Editor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC4460E52C0B28BE8AD5D7A8C9E549D7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367505AE0F4B72EAB59084129281596 /* Theme.swift */; };
+		F5E7E13DCBC1FA826BD36B9DF4DCBB8D /* system-minimal.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A2A0D2557AB47F5EA37F94BF896C452 /* system-minimal.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FB640AEBC695ACD12F27E4EDEC02DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BB0A9DD8C65783F53EA7D056F0C1978;
+			remoteInfo = "Pods-Scale Editor";
+		};
+		879412757C450E2FC096C95B4F13C7F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 698E6813C8FC9854ECAE3C5CAD4D5136;
+			remoteInfo = Notepad;
+		};
+		F58C57711023FC25D29A4FA3C42DC1D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BB0A9DD8C65783F53EA7D056F0C1978;
+			remoteInfo = "Pods-Scale Editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0223DEE8035D3737F9C0C97C7A91DB21 /* one-light-custom.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "one-light-custom.json"; path = "Notepad/themes/one-light-custom.json"; sourceTree = "<group>"; };
+		02D2BAF8262951C45E146324E402B693 /* Notepad-macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notepad-macOS.swift"; path = "Notepad/Notepad-macOS.swift"; sourceTree = "<group>"; };
+		0444934AC9491A9FA0B9647735F07CC9 /* one-light.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "one-light.json"; path = "Notepad/themes/one-light.json"; sourceTree = "<group>"; };
+		1272B21A5BC401923AD577D55E402053 /* Notepad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Notepad-umbrella.h"; sourceTree = "<group>"; };
+		15CF46413028C9468CCC20FF61BA941A /* Pods-Scale EditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale EditorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		18A70A198C10036BAE24A3849C8DD685 /* Pods-Scale Editor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale Editor.release.xcconfig"; sourceTree = "<group>"; };
+		18C7D2ED03CBA6167D98AAE51184D564 /* Notepad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Notepad.xcconfig; sourceTree = "<group>"; };
+		1A711C50BD948399C245E0D0C2213D95 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Notepad/Storage.swift; sourceTree = "<group>"; };
+		222FAA6EB6DEAAAE0CAD99FBC6BFEFC3 /* one-dark-custom.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "one-dark-custom.json"; path = "Notepad/themes/one-dark-custom.json"; sourceTree = "<group>"; };
+		228878761559453E09AE3FC8510B5AC6 /* Pods-Scale Editor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scale Editor-umbrella.h"; sourceTree = "<group>"; };
+		22E6112F9475737D8E7E3651E395CA25 /* Pods-Scale EditorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale EditorUITests-Info.plist"; sourceTree = "<group>"; };
+		23662105AA9F5DE2E83F52371E2116DD /* Pods-Scale EditorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scale EditorUITests-umbrella.h"; sourceTree = "<group>"; };
+		255C9A6085592442342F757AA6A29B45 /* Pods-Scale EditorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scale EditorTests-umbrella.h"; sourceTree = "<group>"; };
+		261CA1C979A501FFEF5B369AEBA56712 /* Pods-Scale EditorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale EditorTests-Info.plist"; sourceTree = "<group>"; };
+		275BBFBFD010225815E13ABEBF9C034B /* Pods-Scale Editor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scale Editor-dummy.m"; sourceTree = "<group>"; };
+		2E3A32FBD7EEE9EAC7970707FDFE9FCA /* Pods_Scale_EditorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Scale_EditorUITests.framework; path = "Pods-Scale EditorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32FC77B2905F59F75EC3876394214E62 /* Pods-Scale EditorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scale EditorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		367B45FF177280DD85EE0EDCB40EE278 /* Pods_Scale_EditorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Scale_EditorTests.framework; path = "Pods-Scale EditorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE81BD7C2BD802B59827034E91F6B0D /* UniversalTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UniversalTypes.swift; path = Notepad/UniversalTypes.swift; sourceTree = "<group>"; };
+		4234DA945C8428A332AD67F79D8EB89D /* one-dark.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "one-dark.json"; path = "Notepad/themes/one-dark.json"; sourceTree = "<group>"; };
+		4FF27A598D249AA409509ACE74E950D8 /* Pods-Scale Editor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale Editor-acknowledgements.plist"; sourceTree = "<group>"; };
+		519CF925EF2AAA7C2B51BD1C628F312B /* Pods-Scale Editor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale Editor-Info.plist"; sourceTree = "<group>"; };
+		68708863B690185E6BD1891B2153E33B /* Pods-Scale EditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale EditorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C8CBE1CA72DEDB7C22FED54AB097ED4 /* Notepad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Notepad.framework; path = Notepad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2A0D2557AB47F5EA37F94BF896C452 /* system-minimal.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "system-minimal.json"; path = "Notepad/themes/system-minimal.json"; sourceTree = "<group>"; };
+		85D3F7470B4CB14580002ABE61EF135D /* Notepad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Notepad-Info.plist"; sourceTree = "<group>"; };
+		8CB9A2FCE8CF9C175356B0C4D1133ED6 /* Pods-Scale EditorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scale EditorTests.modulemap"; sourceTree = "<group>"; };
+		8DD76EE3642B55B75BE253C420301D59 /* Pods-Scale EditorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scale EditorUITests-dummy.m"; sourceTree = "<group>"; };
+		9016EAED2DF6D20593127C7C89C4EA15 /* Pods-Scale EditorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale EditorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		95F8FD634CB612AF34DF2696607A61F4 /* base16-tomorrow-light.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "base16-tomorrow-light.json"; path = "Notepad/themes/base16-tomorrow-light.json"; sourceTree = "<group>"; };
+		9BD8CC50E629E22AC66CA7BE71CFC0C4 /* Pods-Scale EditorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scale EditorTests-dummy.m"; sourceTree = "<group>"; };
+		9CB22823A98033EC4228C51A1E8640C7 /* solarized-dark.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "solarized-dark.json"; path = "Notepad/themes/solarized-dark.json"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7273939447B9EF5FD34335C296C3D11 /* Notepad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Notepad-prefix.pch"; sourceTree = "<group>"; };
+		AD66F1649736D6D0441430A006CE1C30 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Notepad/Element.swift; sourceTree = "<group>"; };
+		B370F059FF18F2850C6221EE8CEB82A2 /* Pods-Scale EditorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale EditorTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8BBFE56AD6993F41EA34E7BC910B6FB /* Pods-Scale EditorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scale EditorUITests.modulemap"; sourceTree = "<group>"; };
+		CA0894D5F472E9868FEBF5E208E07527 /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = Notepad/Style.swift; sourceTree = "<group>"; };
+		CBD78BF1A2BBA4AD14A657E7703B316C /* Pods-Scale Editor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scale Editor-frameworks.sh"; sourceTree = "<group>"; };
+		CD984F309334C5B98B3EAA0D2A1290E0 /* Pods-Scale EditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale EditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0FC4B64A1E5D312EBEC93FB781DF506 /* Pods-Scale Editor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale Editor.debug.xcconfig"; sourceTree = "<group>"; };
+		D367505AE0F4B72EAB59084129281596 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Notepad/Theme.swift; sourceTree = "<group>"; };
+		D3F4169E8D0FAE32FCDE410D37AB0500 /* blues-clues.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "blues-clues.json"; path = "Notepad/themes/blues-clues.json"; sourceTree = "<group>"; };
+		D49126772F84F9E610BF4780A29110DE /* Pods_Scale_Editor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Scale_Editor.framework; path = "Pods-Scale Editor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D988993603EC490BEE6D404985F72788 /* Pods-Scale EditorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scale EditorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF4774A12D9E50428BE1979DACDD00EA /* Pods-Scale EditorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale EditorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0655CED9AA376828973564667722FF2 /* Pods-Scale Editor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scale Editor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E297FBFBC05360217BAF9C4F0D69C2C4 /* Notepad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Notepad.modulemap; sourceTree = "<group>"; };
+		E9A79622E6263B01EF7DC895A01292A9 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Notepad/Extensions.swift; sourceTree = "<group>"; };
+		ED3C064374D08D8FFCC65BD26D9F0B7D /* base16-tomorrow-dark.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "base16-tomorrow-dark.json"; path = "Notepad/themes/base16-tomorrow-dark.json"; sourceTree = "<group>"; };
+		EEA4BF755823783D723AF27279148408 /* solarized-light.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "solarized-light.json"; path = "Notepad/themes/solarized-light.json"; sourceTree = "<group>"; };
+		F1905641190EA65BDDCF2D3C3CCE41C7 /* Notepad-iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notepad-iOS.swift"; path = "Notepad/Notepad-iOS.swift"; sourceTree = "<group>"; };
+		FD832A7F4D962CAE574AB6165B84B8FF /* Notepad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Notepad-dummy.m"; sourceTree = "<group>"; };
+		FE910BECEC80A95364743D6D3FFED58C /* Pods-Scale Editor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scale Editor.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23E4ACAB065B4CF5A21E7D059670911F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647D53FD07966A70F33E1A19B59772F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F84BF4A4928E7D2E187EDA90155BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919356315D2914873872A2802BF9D897 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A50F159DFE1BB4E69FE1A7770DB198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C659A2E8AD001F044521B44D667E5469 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F25A1463A0EDC0F983E3A4CFE15E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7D4B969A114B9C0B2E4C8774824599 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F41BB2F9C80AFB47AD1CA4E6F7C1E5E /* Pods-Scale Editor */ = {
+			isa = PBXGroup;
+			children = (
+				FE910BECEC80A95364743D6D3FFED58C /* Pods-Scale Editor.modulemap */,
+				E0655CED9AA376828973564667722FF2 /* Pods-Scale Editor-acknowledgements.markdown */,
+				4FF27A598D249AA409509ACE74E950D8 /* Pods-Scale Editor-acknowledgements.plist */,
+				275BBFBFD010225815E13ABEBF9C034B /* Pods-Scale Editor-dummy.m */,
+				CBD78BF1A2BBA4AD14A657E7703B316C /* Pods-Scale Editor-frameworks.sh */,
+				519CF925EF2AAA7C2B51BD1C628F312B /* Pods-Scale Editor-Info.plist */,
+				228878761559453E09AE3FC8510B5AC6 /* Pods-Scale Editor-umbrella.h */,
+				D0FC4B64A1E5D312EBEC93FB781DF506 /* Pods-Scale Editor.debug.xcconfig */,
+				18A70A198C10036BAE24A3849C8DD685 /* Pods-Scale Editor.release.xcconfig */,
+			);
+			name = "Pods-Scale Editor";
+			path = "Target Support Files/Pods-Scale Editor";
+			sourceTree = "<group>";
+		};
+		43461C4C6B716FFF6A91DAF3C2225A13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C064374D08D8FFCC65BD26D9F0B7D /* base16-tomorrow-dark.json */,
+				95F8FD634CB612AF34DF2696607A61F4 /* base16-tomorrow-light.json */,
+				D3F4169E8D0FAE32FCDE410D37AB0500 /* blues-clues.json */,
+				4234DA945C8428A332AD67F79D8EB89D /* one-dark.json */,
+				222FAA6EB6DEAAAE0CAD99FBC6BFEFC3 /* one-dark-custom.json */,
+				0444934AC9491A9FA0B9647735F07CC9 /* one-light.json */,
+				0223DEE8035D3737F9C0C97C7A91DB21 /* one-light-custom.json */,
+				9CB22823A98033EC4228C51A1E8640C7 /* solarized-dark.json */,
+				EEA4BF755823783D723AF27279148408 /* solarized-light.json */,
+				7A2A0D2557AB47F5EA37F94BF896C452 /* system-minimal.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5A300F91BBA099548828CE30081B2E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C8CBE1CA72DEDB7C22FED54AB097ED4 /* Notepad.framework */,
+				D49126772F84F9E610BF4780A29110DE /* Pods_Scale_Editor.framework */,
+				367B45FF177280DD85EE0EDCB40EE278 /* Pods_Scale_EditorTests.framework */,
+				2E3A32FBD7EEE9EAC7970707FDFE9FCA /* Pods_Scale_EditorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		686D3A03300A5283BBBD72902B7EED1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D122F379B2CB99E1F69D92EA49F7EBC /* Notepad */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D122F379B2CB99E1F69D92EA49F7EBC /* Notepad */ = {
+			isa = PBXGroup;
+			children = (
+				AD66F1649736D6D0441430A006CE1C30 /* Element.swift */,
+				E9A79622E6263B01EF7DC895A01292A9 /* Extensions.swift */,
+				F1905641190EA65BDDCF2D3C3CCE41C7 /* Notepad-iOS.swift */,
+				02D2BAF8262951C45E146324E402B693 /* Notepad-macOS.swift */,
+				1A711C50BD948399C245E0D0C2213D95 /* Storage.swift */,
+				CA0894D5F472E9868FEBF5E208E07527 /* Style.swift */,
+				D367505AE0F4B72EAB59084129281596 /* Theme.swift */,
+				3BE81BD7C2BD802B59827034E91F6B0D /* UniversalTypes.swift */,
+				43461C4C6B716FFF6A91DAF3C2225A13 /* Resources */,
+				80351438C54A7FD1DC5BD7C2BF83781E /* Support Files */,
+			);
+			name = Notepad;
+			path = Notepad;
+			sourceTree = "<group>";
+		};
+		72A4D162E40B0C0649F871BF34CDF31B /* Pods-Scale EditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9A2FCE8CF9C175356B0C4D1133ED6 /* Pods-Scale EditorTests.modulemap */,
+				D988993603EC490BEE6D404985F72788 /* Pods-Scale EditorTests-acknowledgements.markdown */,
+				DF4774A12D9E50428BE1979DACDD00EA /* Pods-Scale EditorTests-acknowledgements.plist */,
+				9BD8CC50E629E22AC66CA7BE71CFC0C4 /* Pods-Scale EditorTests-dummy.m */,
+				261CA1C979A501FFEF5B369AEBA56712 /* Pods-Scale EditorTests-Info.plist */,
+				255C9A6085592442342F757AA6A29B45 /* Pods-Scale EditorTests-umbrella.h */,
+				15CF46413028C9468CCC20FF61BA941A /* Pods-Scale EditorTests.debug.xcconfig */,
+				B370F059FF18F2850C6221EE8CEB82A2 /* Pods-Scale EditorTests.release.xcconfig */,
+			);
+			name = "Pods-Scale EditorTests";
+			path = "Target Support Files/Pods-Scale EditorTests";
+			sourceTree = "<group>";
+		};
+		80351438C54A7FD1DC5BD7C2BF83781E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E297FBFBC05360217BAF9C4F0D69C2C4 /* Notepad.modulemap */,
+				18C7D2ED03CBA6167D98AAE51184D564 /* Notepad.xcconfig */,
+				FD832A7F4D962CAE574AB6165B84B8FF /* Notepad-dummy.m */,
+				85D3F7470B4CB14580002ABE61EF135D /* Notepad-Info.plist */,
+				A7273939447B9EF5FD34335C296C3D11 /* Notepad-prefix.pch */,
+				1272B21A5BC401923AD577D55E402053 /* Notepad-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Notepad";
+			sourceTree = "<group>";
+		};
+		8F422F2E429DEA960F70E521144CFD25 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F41BB2F9C80AFB47AD1CA4E6F7C1E5E /* Pods-Scale Editor */,
+				72A4D162E40B0C0649F871BF34CDF31B /* Pods-Scale EditorTests */,
+				93D55D9445C4898458961E169BA92D90 /* Pods-Scale EditorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		93D55D9445C4898458961E169BA92D90 /* Pods-Scale EditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8BBFE56AD6993F41EA34E7BC910B6FB /* Pods-Scale EditorUITests.modulemap */,
+				32FC77B2905F59F75EC3876394214E62 /* Pods-Scale EditorUITests-acknowledgements.markdown */,
+				9016EAED2DF6D20593127C7C89C4EA15 /* Pods-Scale EditorUITests-acknowledgements.plist */,
+				8DD76EE3642B55B75BE253C420301D59 /* Pods-Scale EditorUITests-dummy.m */,
+				22E6112F9475737D8E7E3651E395CA25 /* Pods-Scale EditorUITests-Info.plist */,
+				23662105AA9F5DE2E83F52371E2116DD /* Pods-Scale EditorUITests-umbrella.h */,
+				CD984F309334C5B98B3EAA0D2A1290E0 /* Pods-Scale EditorUITests.debug.xcconfig */,
+				68708863B690185E6BD1891B2153E33B /* Pods-Scale EditorUITests.release.xcconfig */,
+			);
+			name = "Pods-Scale EditorUITests";
+			path = "Target Support Files/Pods-Scale EditorUITests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				686D3A03300A5283BBBD72902B7EED1C /* Pods */,
+				5A300F91BBA099548828CE30081B2E80 /* Products */,
+				8F422F2E429DEA960F70E521144CFD25 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34AFCA101F0E00C3171CF17EEA1C2DBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD44E8ED3FC533FE3EF0BB3B4DBC8D6A /* Pods-Scale Editor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED651F3B347EC767630EA2C67DC292F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3659F78E132B6BDA3EFB06A4818797 /* Notepad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C980463A6545168EE3467830890D89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF5CA98EC237762599F5102933D6F49 /* Pods-Scale EditorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF47285518CBA7E0AA3BDFE376F761BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A460B5F10D0D65945C5B3345D9CA9B8E /* Pods-Scale EditorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BB0A9DD8C65783F53EA7D056F0C1978 /* Pods-Scale Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26573E0A4CE17A99292C0E1B6F2DDB18 /* Build configuration list for PBXNativeTarget "Pods-Scale Editor" */;
+			buildPhases = (
+				34AFCA101F0E00C3171CF17EEA1C2DBF /* Headers */,
+				A7CC4D571A7CAE0BF57FB0AD0F51E129 /* Sources */,
+				97A50F159DFE1BB4E69FE1A7770DB198 /* Frameworks */,
+				0B70548F4113676FC34AB5496959EE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AA8C6F82F2ABCA8477267EA62F74A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Scale Editor";
+			productName = "Pods-Scale Editor";
+			productReference = D49126772F84F9E610BF4780A29110DE /* Pods_Scale_Editor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B11098A5547F142D5FAA8A32A070778 /* Pods-Scale EditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE475713DFDF646D55139A1C862FEEB /* Build configuration list for PBXNativeTarget "Pods-Scale EditorTests" */;
+			buildPhases = (
+				FF47285518CBA7E0AA3BDFE376F761BC /* Headers */,
+				578767C55FD8B7D0DDCFE1137B854D1D /* Sources */,
+				23E4ACAB065B4CF5A21E7D059670911F /* Frameworks */,
+				FF4FE71CC9B5BDFF9DE29CAB72F6CBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70F7E0A4A2BC4AC4FFF2808DF62E35B /* PBXTargetDependency */,
+			);
+			name = "Pods-Scale EditorTests";
+			productName = "Pods-Scale EditorTests";
+			productReference = 367B45FF177280DD85EE0EDCB40EE278 /* Pods_Scale_EditorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		698E6813C8FC9854ECAE3C5CAD4D5136 /* Notepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3336CB328FCEB59099E7F0619F91849A /* Build configuration list for PBXNativeTarget "Notepad" */;
+			buildPhases = (
+				ED651F3B347EC767630EA2C67DC292F2 /* Headers */,
+				6F3B1043C7873576AF25685DC6F25CBB /* Sources */,
+				D85F25A1463A0EDC0F983E3A4CFE15E3 /* Frameworks */,
+				13FE9315A0E0D45A11C3B476E6543079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notepad;
+			productName = Notepad;
+			productReference = 6C8CBE1CA72DEDB7C22FED54AB097ED4 /* Notepad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE3F5C0F59580D06F0424CC703D4E871 /* Pods-Scale EditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A885B03187010A4186BBCC7EF50C17 /* Build configuration list for PBXNativeTarget "Pods-Scale EditorUITests" */;
+			buildPhases = (
+				F8C980463A6545168EE3467830890D89 /* Headers */,
+				4B0DA0C490D864CB3FF9EEB1CDACBB42 /* Sources */,
+				84F84BF4A4928E7D2E187EDA90155BDB /* Frameworks */,
+				DD4422D59BD5BBFC4E625D04C022CC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA64D98CBB5C2EFC2CBDE6BAA55D8A57 /* PBXTargetDependency */,
+			);
+			name = "Pods-Scale EditorUITests";
+			productName = "Pods-Scale EditorUITests";
+			productReference = 2E3A32FBD7EEE9EAC7970707FDFE9FCA /* Pods_Scale_EditorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5A300F91BBA099548828CE30081B2E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				698E6813C8FC9854ECAE3C5CAD4D5136 /* Notepad */,
+				1BB0A9DD8C65783F53EA7D056F0C1978 /* Pods-Scale Editor */,
+				5B11098A5547F142D5FAA8A32A070778 /* Pods-Scale EditorTests */,
+				FE3F5C0F59580D06F0424CC703D4E871 /* Pods-Scale EditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B70548F4113676FC34AB5496959EE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FE9315A0E0D45A11C3B476E6543079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EA108C8235593AD537EB8F446450AF /* base16-tomorrow-dark.json in Resources */,
+				35D2CEFE7B1213C915C2F4C7C0198BCF /* base16-tomorrow-light.json in Resources */,
+				C71D3E7BD8676EA396D9162F54C4EC2A /* blues-clues.json in Resources */,
+				6E7F1CF95B3FD386EA5942230435606E /* one-dark-custom.json in Resources */,
+				2E49171E8EA70B558CBCFEAB115607B0 /* one-dark.json in Resources */,
+				7CF6EC981F28005608E5388E681749E8 /* one-light-custom.json in Resources */,
+				4C457A3CB9474FA188ABC3540A6D33DE /* one-light.json in Resources */,
+				517268B44B296D4EA63B981E04A125D3 /* solarized-dark.json in Resources */,
+				495A978924811A270260CF7058CB2B5E /* solarized-light.json in Resources */,
+				F5E7E13DCBC1FA826BD36B9DF4DCBB8D /* system-minimal.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4422D59BD5BBFC4E625D04C022CC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4FE71CC9B5BDFF9DE29CAB72F6CBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B0DA0C490D864CB3FF9EEB1CDACBB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C246915E99AD2A7838291914E97A9E89 /* Pods-Scale EditorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578767C55FD8B7D0DDCFE1137B854D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BA76B33903322EAE94B5A2B7545E0A /* Pods-Scale EditorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3B1043C7873576AF25685DC6F25CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F586C0C041196EF85A70B12C2FC6CD1 /* Element.swift in Sources */,
+				763E7C46D63BAD9BC16AE05C1C95216C /* Extensions.swift in Sources */,
+				5FCEE75DA8E785AE22244F49F50B466D /* Notepad-dummy.m in Sources */,
+				6AC50EA2278FFB5EB43FB32650653EA4 /* Notepad-iOS.swift in Sources */,
+				8717D3166F62378A9132B6AFA75AE50F /* Notepad-macOS.swift in Sources */,
+				9B90248DAB7C82444AE573FC6B0278D0 /* Storage.swift in Sources */,
+				662140694E11C22A67A57F99FF76514D /* Style.swift in Sources */,
+				EC4460E52C0B28BE8AD5D7A8C9E549D7 /* Theme.swift in Sources */,
+				6FAB58B865904D227B18F78DBD548688 /* UniversalTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CC4D571A7CAE0BF57FB0AD0F51E129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09D1B4916F37C51BC161D343313045F /* Pods-Scale Editor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44AA8C6F82F2ABCA8477267EA62F74A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Notepad;
+			target = 698E6813C8FC9854ECAE3C5CAD4D5136 /* Notepad */;
+			targetProxy = 879412757C450E2FC096C95B4F13C7F7 /* PBXContainerItemProxy */;
+		};
+		EA64D98CBB5C2EFC2CBDE6BAA55D8A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Scale Editor";
+			target = 1BB0A9DD8C65783F53EA7D056F0C1978 /* Pods-Scale Editor */;
+			targetProxy = 7FB640AEBC695ACD12F27E4EDEC02DA0 /* PBXContainerItemProxy */;
+		};
+		F70F7E0A4A2BC4AC4FFF2808DF62E35B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Scale Editor";
+			target = 1BB0A9DD8C65783F53EA7D056F0C1978 /* Pods-Scale Editor */;
+			targetProxy = F58C57711023FC25D29A4FA3C42DC1D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		174819D8C9D737BDBC1076646D516FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B370F059FF18F2850C6221EE8CEB82A2 /* Pods-Scale EditorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scale EditorTests/Pods-Scale EditorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scale EditorTests/Pods-Scale EditorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29D46597B646E48921D51ADA4AC8DA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68708863B690185E6BD1891B2153E33B /* Pods-Scale EditorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scale EditorUITests/Pods-Scale EditorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scale EditorUITests/Pods-Scale EditorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CB8223FBADCBBCE0B1AEAA5381192CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD984F309334C5B98B3EAA0D2A1290E0 /* Pods-Scale EditorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scale EditorUITests/Pods-Scale EditorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scale EditorUITests/Pods-Scale EditorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D597AC1C6A6DBAA8A647D401269D4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C7D2ED03CBA6167D98AAE51184D564 /* Notepad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Notepad/Notepad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Notepad/Notepad-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Notepad/Notepad.modulemap";
+				PRODUCT_MODULE_NAME = Notepad;
+				PRODUCT_NAME = Notepad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DA1E35A44FC20207AAAB57FB3E3F1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A28ACAB0FD7AC87C014BD1B7F0566EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CF46413028C9468CCC20FF61BA941A /* Pods-Scale EditorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scale EditorTests/Pods-Scale EditorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scale EditorTests/Pods-Scale EditorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AADB51BEB6307B81FDB1BB6AE3196D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A70A198C10036BAE24A3849C8DD685 /* Pods-Scale Editor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scale Editor/Pods-Scale Editor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scale Editor/Pods-Scale Editor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B13423993B5AE831C450973E20414142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3D60C7E2AC2362A8AE240969DA4771B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C7D2ED03CBA6167D98AAE51184D564 /* Notepad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Notepad/Notepad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Notepad/Notepad-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Notepad/Notepad.modulemap";
+				PRODUCT_MODULE_NAME = Notepad;
+				PRODUCT_NAME = Notepad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E781FA3F24FE9684FCDBBC32B4EB4853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FC4B64A1E5D312EBEC93FB781DF506 /* Pods-Scale Editor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scale Editor/Pods-Scale Editor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scale Editor/Pods-Scale Editor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26573E0A4CE17A99292C0E1B6F2DDB18 /* Build configuration list for PBXNativeTarget "Pods-Scale Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E781FA3F24FE9684FCDBBC32B4EB4853 /* Debug */,
+				AADB51BEB6307B81FDB1BB6AE3196D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3336CB328FCEB59099E7F0619F91849A /* Build configuration list for PBXNativeTarget "Notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D597AC1C6A6DBAA8A647D401269D4D9 /* Debug */,
+				B3D60C7E2AC2362A8AE240969DA4771B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A885B03187010A4186BBCC7EF50C17 /* Build configuration list for PBXNativeTarget "Pods-Scale EditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB8223FBADCBBCE0B1AEAA5381192CE /* Debug */,
+				29D46597B646E48921D51ADA4AC8DA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA1E35A44FC20207AAAB57FB3E3F1BB /* Debug */,
+				B13423993B5AE831C450973E20414142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE475713DFDF646D55139A1C862FEEB /* Build configuration list for PBXNativeTarget "Pods-Scale EditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28ACAB0FD7AC87C014BD1B7F0566EFD /* Debug */,
+				174819D8C9D737BDBC1076646D516FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

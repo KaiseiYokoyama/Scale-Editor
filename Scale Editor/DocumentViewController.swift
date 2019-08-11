@@ -8,6 +8,21 @@
 
 import UIKit
 
-class DocumentViewController: UINavigationViewController {
+class DocumentViewController: UINavigationController {
+
+    var scale: Scale = ScaleRoot.root
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        for viewController in viewControllers {
+            switch viewController {
+            case let m as MarkdownViewController:
+                m.scale = self.scale
+            default:
+                print("\(type(of: viewController))")
+            }
+        }
+    }
 
 }

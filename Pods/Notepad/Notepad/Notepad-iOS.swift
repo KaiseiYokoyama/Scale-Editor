@@ -9,9 +9,9 @@
 #if os(iOS)
 import UIKit
 
-open class Notepad: UITextView {
+public class Notepad: UITextView {
 
-    var storage: Storage = Storage()
+    public var storage: Storage = Storage()
 
     /// Creates a new Notepad.
     ///

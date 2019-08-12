@@ -1,16 +1,21 @@
 PODS:
-  - Notepad (0.3.0)
+  - Notepad (0.3.1)
 
 DEPENDENCIES:
-  - Notepad (~> 0.3)
+  - Notepad (from `https://github.com/shusain93/Notepad`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Notepad
+EXTERNAL SOURCES:
+  Notepad:
+    :git: https://github.com/shusain93/Notepad
+
+CHECKOUT OPTIONS:
+  Notepad:
+    :commit: 40d293ba9df6c8c50f31a6076c246268c95f846f
+    :git: https://github.com/shusain93/Notepad
 
 SPEC CHECKSUMS:
-  Notepad: c087ac7cf523e68ca8d557f8be88ddc65e64b530
+  Notepad: 6c54b83309c301a2ed96374f882575e5b9347163
 
-PODFILE CHECKSUM: 44212f37841183d2f287843483d7afe82213e446
+PODFILE CHECKSUM: 7d0c4fad18764abc71b8dee1cffedbb5b1f20aa4
 
 COCOAPODS: 1.7.2

@@ -7,36 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1082C79C85408F3FDE09C41CB654A084 /* Notepad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 370BDDD08D2EE3D5E9E6156847E58C74 /* Notepad-dummy.m */; };
+		1EB65548F1C8FB8787F94CC65755886C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2AF5CA98EC237762599F5102933D6F49 /* Pods-Scale EditorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23662105AA9F5DE2E83F52371E2116DD /* Pods-Scale EditorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E49171E8EA70B558CBCFEAB115607B0 /* one-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 4234DA945C8428A332AD67F79D8EB89D /* one-dark.json */; };
-		31EA108C8235593AD537EB8F446450AF /* base16-tomorrow-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = ED3C064374D08D8FFCC65BD26D9F0B7D /* base16-tomorrow-dark.json */; };
 		33BA76B33903322EAE94B5A2B7545E0A /* Pods-Scale EditorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8CC50E629E22AC66CA7BE71CFC0C4 /* Pods-Scale EditorTests-dummy.m */; };
-		35D2CEFE7B1213C915C2F4C7C0198BCF /* base16-tomorrow-light.json in Resources */ = {isa = PBXBuildFile; fileRef = 95F8FD634CB612AF34DF2696607A61F4 /* base16-tomorrow-light.json */; };
-		3F586C0C041196EF85A70B12C2FC6CD1 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66F1649736D6D0441430A006CE1C30 /* Element.swift */; };
-		495A978924811A270260CF7058CB2B5E /* solarized-light.json in Resources */ = {isa = PBXBuildFile; fileRef = EEA4BF755823783D723AF27279148408 /* solarized-light.json */; };
-		4C457A3CB9474FA188ABC3540A6D33DE /* one-light.json in Resources */ = {isa = PBXBuildFile; fileRef = 0444934AC9491A9FA0B9647735F07CC9 /* one-light.json */; };
-		517268B44B296D4EA63B981E04A125D3 /* solarized-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CB22823A98033EC4228C51A1E8640C7 /* solarized-dark.json */; };
-		5D7D4B969A114B9C0B2E4C8774824599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5FCEE75DA8E785AE22244F49F50B466D /* Notepad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD832A7F4D962CAE574AB6165B84B8FF /* Notepad-dummy.m */; };
+		3844BFA943638D95C57BBF58650CF159 /* Notepad-macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B7631180402EA27E7869A184A88716 /* Notepad-macOS.swift */; };
+		4C1DAAA13D817EBF726ADCD40541338F /* UniversalTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9AEE3B5340E6CBB31C18A81F3E7D6 /* UniversalTypes.swift */; };
+		60791F2FAA3D7F47E2005B33E77BDC9B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E77881903D13425145A3473664E5A08 /* Extensions.swift */; };
 		647D53FD07966A70F33E1A19B59772F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		662140694E11C22A67A57F99FF76514D /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0894D5F472E9868FEBF5E208E07527 /* Style.swift */; };
-		6AC50EA2278FFB5EB43FB32650653EA4 /* Notepad-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1905641190EA65BDDCF2D3C3CCE41C7 /* Notepad-iOS.swift */; };
-		6E7F1CF95B3FD386EA5942230435606E /* one-dark-custom.json in Resources */ = {isa = PBXBuildFile; fileRef = 222FAA6EB6DEAAAE0CAD99FBC6BFEFC3 /* one-dark-custom.json */; };
-		6FAB58B865904D227B18F78DBD548688 /* UniversalTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE81BD7C2BD802B59827034E91F6B0D /* UniversalTypes.swift */; };
-		763E7C46D63BAD9BC16AE05C1C95216C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A79622E6263B01EF7DC895A01292A9 /* Extensions.swift */; };
-		7CF6EC981F28005608E5388E681749E8 /* one-light-custom.json in Resources */ = {isa = PBXBuildFile; fileRef = 0223DEE8035D3737F9C0C97C7A91DB21 /* one-light-custom.json */; };
-		8717D3166F62378A9132B6AFA75AE50F /* Notepad-macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2BAF8262951C45E146324E402B693 /* Notepad-macOS.swift */; };
+		7E8F03880EEC2B9E499B196CE6861DAB /* Notepad-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51045A62C92138CAB5444BDC9CAA25DE /* Notepad-iOS.swift */; };
+		8D88BF1A74BD9895575C3ABEB07A2FD0 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0661E5346FD4E061C46FABD0A4FE0FA4 /* Element.swift */; };
+		8F2AAEB70476C8ADA63153B8445161C0 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7DAD8429316F62814065AF47CC8A42 /* Storage.swift */; };
 		919356315D2914873872A2802BF9D897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9B90248DAB7C82444AE573FC6B0278D0 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A711C50BD948399C245E0D0C2213D95 /* Storage.swift */; };
 		A460B5F10D0D65945C5B3345D9CA9B8E /* Pods-Scale EditorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 255C9A6085592442342F757AA6A29B45 /* Pods-Scale EditorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF3659F78E132B6BDA3EFB06A4818797 /* Notepad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1272B21A5BC401923AD577D55E402053 /* Notepad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EAEFD85098B16F4710F7E47D0428DD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589DE8F19CC42C75B7517622981FCE1 /* Theme.swift */; };
 		C09D1B4916F37C51BC161D343313045F /* Pods-Scale Editor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 275BBFBFD010225815E13ABEBF9C034B /* Pods-Scale Editor-dummy.m */; };
 		C246915E99AD2A7838291914E97A9E89 /* Pods-Scale EditorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD76EE3642B55B75BE253C420301D59 /* Pods-Scale EditorUITests-dummy.m */; };
 		C659A2E8AD001F044521B44D667E5469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C71D3E7BD8676EA396D9162F54C4EC2A /* blues-clues.json in Resources */ = {isa = PBXBuildFile; fileRef = D3F4169E8D0FAE32FCDE410D37AB0500 /* blues-clues.json */; };
+		D0B12249DCE22EE10BA49DA50BBB52F2 /* Notepad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F85DD73683D3E12D35C2A7999D8B25A4 /* Notepad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D399A21BE95C5EEB1647B9DE9C93AF69 /* dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E10AA1CAF106F8AFCB6BB303291CEF4 /* dark.json */; };
+		D89DFCDB1C415E3282E7CD002905D5FC /* light.json in Resources */ = {isa = PBXBuildFile; fileRef = 043B08196BCD3897CF76CFE74A15B0B3 /* light.json */; };
 		DD44E8ED3FC533FE3EF0BB3B4DBC8D6A /* Pods-Scale Editor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 228878761559453E09AE3FC8510B5AC6 /* Pods-Scale Editor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC4460E52C0B28BE8AD5D7A8C9E549D7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367505AE0F4B72EAB59084129281596 /* Theme.swift */; };
-		F5E7E13DCBC1FA826BD36B9DF4DCBB8D /* system-minimal.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A2A0D2557AB47F5EA37F94BF896C452 /* system-minimal.json */; };
+		F527DD1FF099D30BB1A9CC605C34440F /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4E562550AE149A60D4308F868E69C /* Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,15 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0223DEE8035D3737F9C0C97C7A91DB21 /* one-light-custom.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "one-light-custom.json"; path = "Notepad/themes/one-light-custom.json"; sourceTree = "<group>"; };
-		02D2BAF8262951C45E146324E402B693 /* Notepad-macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notepad-macOS.swift"; path = "Notepad/Notepad-macOS.swift"; sourceTree = "<group>"; };
-		0444934AC9491A9FA0B9647735F07CC9 /* one-light.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "one-light.json"; path = "Notepad/themes/one-light.json"; sourceTree = "<group>"; };
-		1272B21A5BC401923AD577D55E402053 /* Notepad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Notepad-umbrella.h"; sourceTree = "<group>"; };
+		043B08196BCD3897CF76CFE74A15B0B3 /* light.json */ = {isa = PBXFileReference; includeInIndex = 1; name = light.json; path = Notepad/themes/light.json; sourceTree = "<group>"; };
+		0661E5346FD4E061C46FABD0A4FE0FA4 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Notepad/Element.swift; sourceTree = "<group>"; };
+		0E10AA1CAF106F8AFCB6BB303291CEF4 /* dark.json */ = {isa = PBXFileReference; includeInIndex = 1; name = dark.json; path = Notepad/themes/dark.json; sourceTree = "<group>"; };
 		15CF46413028C9468CCC20FF61BA941A /* Pods-Scale EditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale EditorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		18A70A198C10036BAE24A3849C8DD685 /* Pods-Scale Editor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale Editor.release.xcconfig"; sourceTree = "<group>"; };
-		18C7D2ED03CBA6167D98AAE51184D564 /* Notepad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Notepad.xcconfig; sourceTree = "<group>"; };
-		1A711C50BD948399C245E0D0C2213D95 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Notepad/Storage.swift; sourceTree = "<group>"; };
-		222FAA6EB6DEAAAE0CAD99FBC6BFEFC3 /* one-dark-custom.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "one-dark-custom.json"; path = "Notepad/themes/one-dark-custom.json"; sourceTree = "<group>"; };
 		228878761559453E09AE3FC8510B5AC6 /* Pods-Scale Editor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scale Editor-umbrella.h"; sourceTree = "<group>"; };
 		22E6112F9475737D8E7E3651E395CA25 /* Pods-Scale EditorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale EditorUITests-Info.plist"; sourceTree = "<group>"; };
 		23662105AA9F5DE2E83F52371E2116DD /* Pods-Scale EditorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scale EditorUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -83,41 +71,37 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32FC77B2905F59F75EC3876394214E62 /* Pods-Scale EditorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scale EditorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		367B45FF177280DD85EE0EDCB40EE278 /* Pods_Scale_EditorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Scale_EditorTests.framework; path = "Pods-Scale EditorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE81BD7C2BD802B59827034E91F6B0D /* UniversalTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UniversalTypes.swift; path = Notepad/UniversalTypes.swift; sourceTree = "<group>"; };
-		4234DA945C8428A332AD67F79D8EB89D /* one-dark.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "one-dark.json"; path = "Notepad/themes/one-dark.json"; sourceTree = "<group>"; };
+		370BDDD08D2EE3D5E9E6156847E58C74 /* Notepad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Notepad-dummy.m"; sourceTree = "<group>"; };
+		3E77881903D13425145A3473664E5A08 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Notepad/Extensions.swift; sourceTree = "<group>"; };
+		43F74C499A12049BE050F6F885CAF007 /* Notepad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Notepad-Info.plist"; sourceTree = "<group>"; };
+		4C7DAD8429316F62814065AF47CC8A42 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Notepad/Storage.swift; sourceTree = "<group>"; };
 		4FF27A598D249AA409509ACE74E950D8 /* Pods-Scale Editor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale Editor-acknowledgements.plist"; sourceTree = "<group>"; };
+		51045A62C92138CAB5444BDC9CAA25DE /* Notepad-iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notepad-iOS.swift"; path = "Notepad/Notepad-iOS.swift"; sourceTree = "<group>"; };
 		519CF925EF2AAA7C2B51BD1C628F312B /* Pods-Scale Editor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale Editor-Info.plist"; sourceTree = "<group>"; };
+		619D22E885810D2A80B5570070EBD2C6 /* Notepad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Notepad.xcconfig; sourceTree = "<group>"; };
 		68708863B690185E6BD1891B2153E33B /* Pods-Scale EditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale EditorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6C8CBE1CA72DEDB7C22FED54AB097ED4 /* Notepad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Notepad.framework; path = Notepad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A2A0D2557AB47F5EA37F94BF896C452 /* system-minimal.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "system-minimal.json"; path = "Notepad/themes/system-minimal.json"; sourceTree = "<group>"; };
-		85D3F7470B4CB14580002ABE61EF135D /* Notepad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Notepad-Info.plist"; sourceTree = "<group>"; };
+		7589DE8F19CC42C75B7517622981FCE1 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Notepad/Theme.swift; sourceTree = "<group>"; };
+		7F101431040D5D9FA627DD833C8F5B1A /* Notepad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Notepad.modulemap; sourceTree = "<group>"; };
+		82B7631180402EA27E7869A184A88716 /* Notepad-macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notepad-macOS.swift"; path = "Notepad/Notepad-macOS.swift"; sourceTree = "<group>"; };
 		8CB9A2FCE8CF9C175356B0C4D1133ED6 /* Pods-Scale EditorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scale EditorTests.modulemap"; sourceTree = "<group>"; };
 		8DD76EE3642B55B75BE253C420301D59 /* Pods-Scale EditorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scale EditorUITests-dummy.m"; sourceTree = "<group>"; };
 		9016EAED2DF6D20593127C7C89C4EA15 /* Pods-Scale EditorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale EditorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		95F8FD634CB612AF34DF2696607A61F4 /* base16-tomorrow-light.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "base16-tomorrow-light.json"; path = "Notepad/themes/base16-tomorrow-light.json"; sourceTree = "<group>"; };
 		9BD8CC50E629E22AC66CA7BE71CFC0C4 /* Pods-Scale EditorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scale EditorTests-dummy.m"; sourceTree = "<group>"; };
-		9CB22823A98033EC4228C51A1E8640C7 /* solarized-dark.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "solarized-dark.json"; path = "Notepad/themes/solarized-dark.json"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7273939447B9EF5FD34335C296C3D11 /* Notepad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Notepad-prefix.pch"; sourceTree = "<group>"; };
-		AD66F1649736D6D0441430A006CE1C30 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Notepad/Element.swift; sourceTree = "<group>"; };
+		B2872438823756FB407604E6E21C273C /* Notepad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Notepad-prefix.pch"; sourceTree = "<group>"; };
 		B370F059FF18F2850C6221EE8CEB82A2 /* Pods-Scale EditorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale EditorTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8BBFE56AD6993F41EA34E7BC910B6FB /* Pods-Scale EditorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scale EditorUITests.modulemap"; sourceTree = "<group>"; };
-		CA0894D5F472E9868FEBF5E208E07527 /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = Notepad/Style.swift; sourceTree = "<group>"; };
 		CBD78BF1A2BBA4AD14A657E7703B316C /* Pods-Scale Editor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scale Editor-frameworks.sh"; sourceTree = "<group>"; };
 		CD984F309334C5B98B3EAA0D2A1290E0 /* Pods-Scale EditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale EditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFD9AEE3B5340E6CBB31C18A81F3E7D6 /* UniversalTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UniversalTypes.swift; path = Notepad/UniversalTypes.swift; sourceTree = "<group>"; };
 		D0FC4B64A1E5D312EBEC93FB781DF506 /* Pods-Scale Editor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scale Editor.debug.xcconfig"; sourceTree = "<group>"; };
-		D367505AE0F4B72EAB59084129281596 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Notepad/Theme.swift; sourceTree = "<group>"; };
-		D3F4169E8D0FAE32FCDE410D37AB0500 /* blues-clues.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "blues-clues.json"; path = "Notepad/themes/blues-clues.json"; sourceTree = "<group>"; };
 		D49126772F84F9E610BF4780A29110DE /* Pods_Scale_Editor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Scale_Editor.framework; path = "Pods-Scale Editor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D988993603EC490BEE6D404985F72788 /* Pods-Scale EditorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scale EditorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF4774A12D9E50428BE1979DACDD00EA /* Pods-Scale EditorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scale EditorTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E0655CED9AA376828973564667722FF2 /* Pods-Scale Editor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scale Editor-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E297FBFBC05360217BAF9C4F0D69C2C4 /* Notepad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Notepad.modulemap; sourceTree = "<group>"; };
-		E9A79622E6263B01EF7DC895A01292A9 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Notepad/Extensions.swift; sourceTree = "<group>"; };
-		ED3C064374D08D8FFCC65BD26D9F0B7D /* base16-tomorrow-dark.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "base16-tomorrow-dark.json"; path = "Notepad/themes/base16-tomorrow-dark.json"; sourceTree = "<group>"; };
-		EEA4BF755823783D723AF27279148408 /* solarized-light.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "solarized-light.json"; path = "Notepad/themes/solarized-light.json"; sourceTree = "<group>"; };
-		F1905641190EA65BDDCF2D3C3CCE41C7 /* Notepad-iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notepad-iOS.swift"; path = "Notepad/Notepad-iOS.swift"; sourceTree = "<group>"; };
-		FD832A7F4D962CAE574AB6165B84B8FF /* Notepad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Notepad-dummy.m"; sourceTree = "<group>"; };
+		F85DD73683D3E12D35C2A7999D8B25A4 /* Notepad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Notepad-umbrella.h"; sourceTree = "<group>"; };
+		FDF4E562550AE149A60D4308F868E69C /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = Notepad/Style.swift; sourceTree = "<group>"; };
 		FE910BECEC80A95364743D6D3FFED58C /* Pods-Scale Editor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scale Editor.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +111,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				647D53FD07966A70F33E1A19B59772F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339D58AFB58BDB05E890347F7D425088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB65548F1C8FB8787F94CC65755886C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C659A2E8AD001F044521B44D667E5469 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D85F25A1463A0EDC0F983E3A4CFE15E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D7D4B969A114B9C0B2E4C8774824599 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,23 +158,6 @@
 			path = "Target Support Files/Pods-Scale Editor";
 			sourceTree = "<group>";
 		};
-		43461C4C6B716FFF6A91DAF3C2225A13 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				ED3C064374D08D8FFCC65BD26D9F0B7D /* base16-tomorrow-dark.json */,
-				95F8FD634CB612AF34DF2696607A61F4 /* base16-tomorrow-light.json */,
-				D3F4169E8D0FAE32FCDE410D37AB0500 /* blues-clues.json */,
-				4234DA945C8428A332AD67F79D8EB89D /* one-dark.json */,
-				222FAA6EB6DEAAAE0CAD99FBC6BFEFC3 /* one-dark-custom.json */,
-				0444934AC9491A9FA0B9647735F07CC9 /* one-light.json */,
-				0223DEE8035D3737F9C0C97C7A91DB21 /* one-light-custom.json */,
-				9CB22823A98033EC4228C51A1E8640C7 /* solarized-dark.json */,
-				EEA4BF755823783D723AF27279148408 /* solarized-light.json */,
-				7A2A0D2557AB47F5EA37F94BF896C452 /* system-minimal.json */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		5A300F91BBA099548828CE30081B2E80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,27 +172,9 @@
 		686D3A03300A5283BBBD72902B7EED1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D122F379B2CB99E1F69D92EA49F7EBC /* Notepad */,
+				D2AEF7090CB948B90887BCA4B85B85AA /* Notepad */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		6D122F379B2CB99E1F69D92EA49F7EBC /* Notepad */ = {
-			isa = PBXGroup;
-			children = (
-				AD66F1649736D6D0441430A006CE1C30 /* Element.swift */,
-				E9A79622E6263B01EF7DC895A01292A9 /* Extensions.swift */,
-				F1905641190EA65BDDCF2D3C3CCE41C7 /* Notepad-iOS.swift */,
-				02D2BAF8262951C45E146324E402B693 /* Notepad-macOS.swift */,
-				1A711C50BD948399C245E0D0C2213D95 /* Storage.swift */,
-				CA0894D5F472E9868FEBF5E208E07527 /* Style.swift */,
-				D367505AE0F4B72EAB59084129281596 /* Theme.swift */,
-				3BE81BD7C2BD802B59827034E91F6B0D /* UniversalTypes.swift */,
-				43461C4C6B716FFF6A91DAF3C2225A13 /* Resources */,
-				80351438C54A7FD1DC5BD7C2BF83781E /* Support Files */,
-			);
-			name = Notepad;
-			path = Notepad;
 			sourceTree = "<group>";
 		};
 		72A4D162E40B0C0649F871BF34CDF31B /* Pods-Scale EditorTests */ = {
@@ -244,15 +193,15 @@
 			path = "Target Support Files/Pods-Scale EditorTests";
 			sourceTree = "<group>";
 		};
-		80351438C54A7FD1DC5BD7C2BF83781E /* Support Files */ = {
+		7C14231FD9E923BFF8D6B3F284B9FCC3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E297FBFBC05360217BAF9C4F0D69C2C4 /* Notepad.modulemap */,
-				18C7D2ED03CBA6167D98AAE51184D564 /* Notepad.xcconfig */,
-				FD832A7F4D962CAE574AB6165B84B8FF /* Notepad-dummy.m */,
-				85D3F7470B4CB14580002ABE61EF135D /* Notepad-Info.plist */,
-				A7273939447B9EF5FD34335C296C3D11 /* Notepad-prefix.pch */,
-				1272B21A5BC401923AD577D55E402053 /* Notepad-umbrella.h */,
+				7F101431040D5D9FA627DD833C8F5B1A /* Notepad.modulemap */,
+				619D22E885810D2A80B5570070EBD2C6 /* Notepad.xcconfig */,
+				370BDDD08D2EE3D5E9E6156847E58C74 /* Notepad-dummy.m */,
+				43F74C499A12049BE050F6F885CAF007 /* Notepad-Info.plist */,
+				B2872438823756FB407604E6E21C273C /* Notepad-prefix.pch */,
+				F85DD73683D3E12D35C2A7999D8B25A4 /* Notepad-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Notepad";
@@ -284,6 +233,15 @@
 			path = "Target Support Files/Pods-Scale EditorUITests";
 			sourceTree = "<group>";
 		};
+		A96DDE423EB0241C04B112F2ED609067 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E10AA1CAF106F8AFCB6BB303291CEF4 /* dark.json */,
+				043B08196BCD3897CF76CFE74A15B0B3 /* light.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +269,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D2AEF7090CB948B90887BCA4B85B85AA /* Notepad */ = {
+			isa = PBXGroup;
+			children = (
+				0661E5346FD4E061C46FABD0A4FE0FA4 /* Element.swift */,
+				3E77881903D13425145A3473664E5A08 /* Extensions.swift */,
+				51045A62C92138CAB5444BDC9CAA25DE /* Notepad-iOS.swift */,
+				82B7631180402EA27E7869A184A88716 /* Notepad-macOS.swift */,
+				4C7DAD8429316F62814065AF47CC8A42 /* Storage.swift */,
+				FDF4E562550AE149A60D4308F868E69C /* Style.swift */,
+				7589DE8F19CC42C75B7517622981FCE1 /* Theme.swift */,
+				CFD9AEE3B5340E6CBB31C18A81F3E7D6 /* UniversalTypes.swift */,
+				A96DDE423EB0241C04B112F2ED609067 /* Resources */,
+				7C14231FD9E923BFF8D6B3F284B9FCC3 /* Support Files */,
+			);
+			name = Notepad;
+			path = Notepad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -322,11 +298,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED651F3B347EC767630EA2C67DC292F2 /* Headers */ = {
+		D6EE761C1184A4F88EB136B9E0466FD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3659F78E132B6BDA3EFB06A4818797 /* Notepad-umbrella.h in Headers */,
+				D0B12249DCE22EE10BA49DA50BBB52F2 /* Notepad-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,12 +365,12 @@
 		};
 		698E6813C8FC9854ECAE3C5CAD4D5136 /* Notepad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3336CB328FCEB59099E7F0619F91849A /* Build configuration list for PBXNativeTarget "Notepad" */;
+			buildConfigurationList = 55A982720A9EEF635DE5D04082D8154D /* Build configuration list for PBXNativeTarget "Notepad" */;
 			buildPhases = (
-				ED651F3B347EC767630EA2C67DC292F2 /* Headers */,
-				6F3B1043C7873576AF25685DC6F25CBB /* Sources */,
-				D85F25A1463A0EDC0F983E3A4CFE15E3 /* Frameworks */,
-				13FE9315A0E0D45A11C3B476E6543079 /* Resources */,
+				D6EE761C1184A4F88EB136B9E0466FD2 /* Headers */,
+				5A0668CFFE6029DEDF96ECC42A1EA9A3 /* Sources */,
+				339D58AFB58BDB05E890347F7D425088 /* Frameworks */,
+				650119E758F8B5CB5782B55AD8C08A0D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -461,20 +437,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13FE9315A0E0D45A11C3B476E6543079 /* Resources */ = {
+		650119E758F8B5CB5782B55AD8C08A0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31EA108C8235593AD537EB8F446450AF /* base16-tomorrow-dark.json in Resources */,
-				35D2CEFE7B1213C915C2F4C7C0198BCF /* base16-tomorrow-light.json in Resources */,
-				C71D3E7BD8676EA396D9162F54C4EC2A /* blues-clues.json in Resources */,
-				6E7F1CF95B3FD386EA5942230435606E /* one-dark-custom.json in Resources */,
-				2E49171E8EA70B558CBCFEAB115607B0 /* one-dark.json in Resources */,
-				7CF6EC981F28005608E5388E681749E8 /* one-light-custom.json in Resources */,
-				4C457A3CB9474FA188ABC3540A6D33DE /* one-light.json in Resources */,
-				517268B44B296D4EA63B981E04A125D3 /* solarized-dark.json in Resources */,
-				495A978924811A270260CF7058CB2B5E /* solarized-light.json in Resources */,
-				F5E7E13DCBC1FA826BD36B9DF4DCBB8D /* system-minimal.json in Resources */,
+				D399A21BE95C5EEB1647B9DE9C93AF69 /* dark.json in Resources */,
+				D89DFCDB1C415E3282E7CD002905D5FC /* light.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,19 +479,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F3B1043C7873576AF25685DC6F25CBB /* Sources */ = {
+		5A0668CFFE6029DEDF96ECC42A1EA9A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F586C0C041196EF85A70B12C2FC6CD1 /* Element.swift in Sources */,
-				763E7C46D63BAD9BC16AE05C1C95216C /* Extensions.swift in Sources */,
-				5FCEE75DA8E785AE22244F49F50B466D /* Notepad-dummy.m in Sources */,
-				6AC50EA2278FFB5EB43FB32650653EA4 /* Notepad-iOS.swift in Sources */,
-				8717D3166F62378A9132B6AFA75AE50F /* Notepad-macOS.swift in Sources */,
-				9B90248DAB7C82444AE573FC6B0278D0 /* Storage.swift in Sources */,
-				662140694E11C22A67A57F99FF76514D /* Style.swift in Sources */,
-				EC4460E52C0B28BE8AD5D7A8C9E549D7 /* Theme.swift in Sources */,
-				6FAB58B865904D227B18F78DBD548688 /* UniversalTypes.swift in Sources */,
+				8D88BF1A74BD9895575C3ABEB07A2FD0 /* Element.swift in Sources */,
+				60791F2FAA3D7F47E2005B33E77BDC9B /* Extensions.swift in Sources */,
+				1082C79C85408F3FDE09C41CB654A084 /* Notepad-dummy.m in Sources */,
+				7E8F03880EEC2B9E499B196CE6861DAB /* Notepad-iOS.swift in Sources */,
+				3844BFA943638D95C57BBF58650CF159 /* Notepad-macOS.swift in Sources */,
+				8F2AAEB70476C8ADA63153B8445161C0 /* Storage.swift in Sources */,
+				F527DD1FF099D30BB1A9CC605C34440F /* Style.swift in Sources */,
+				A4EAEFD85098B16F4710F7E47D0428DD /* Theme.swift in Sources */,
+				4C1DAAA13D817EBF726ADCD40541338F /* UniversalTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +605,42 @@
 			};
 			name = Release;
 		};
+		2DB7EA8189BB0A586A627E00458ABAF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619D22E885810D2A80B5570070EBD2C6 /* Notepad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Notepad/Notepad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Notepad/Notepad-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Notepad/Notepad.modulemap";
+				PRODUCT_MODULE_NAME = Notepad;
+				PRODUCT_NAME = Notepad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3CB8223FBADCBBCE0B1AEAA5381192CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD984F309334C5B98B3EAA0D2A1290E0 /* Pods-Scale EditorUITests.debug.xcconfig */;
@@ -675,9 +679,9 @@
 			};
 			name = Debug;
 		};
-		7D597AC1C6A6DBAA8A647D401269D4D9 /* Debug */ = {
+		7A7C6E4A9C647908A4AD827F7B962101 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18C7D2ED03CBA6167D98AAE51184D564 /* Notepad.xcconfig */;
+			baseConfigurationReference = 619D22E885810D2A80B5570070EBD2C6 /* Notepad.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -691,7 +695,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Notepad/Notepad-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Notepad/Notepad-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -911,42 +915,6 @@
 			};
 			name = Release;
 		};
-		B3D60C7E2AC2362A8AE240969DA4771B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18C7D2ED03CBA6167D98AAE51184D564 /* Notepad.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Notepad/Notepad-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Notepad/Notepad-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Notepad/Notepad.modulemap";
-				PRODUCT_MODULE_NAME = Notepad;
-				PRODUCT_NAME = Notepad;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E781FA3F24FE9684FCDBBC32B4EB4853 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0FC4B64A1E5D312EBEC93FB781DF506 /* Pods-Scale Editor.debug.xcconfig */;
@@ -997,15 +965,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3336CB328FCEB59099E7F0619F91849A /* Build configuration list for PBXNativeTarget "Notepad" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D597AC1C6A6DBAA8A647D401269D4D9 /* Debug */,
-				B3D60C7E2AC2362A8AE240969DA4771B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		45A885B03187010A4186BBCC7EF50C17 /* Build configuration list for PBXNativeTarget "Pods-Scale EditorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1020,6 +979,15 @@
 			buildConfigurations = (
 				8DA1E35A44FC20207AAAB57FB3E3F1BB /* Debug */,
 				B13423993B5AE831C450973E20414142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A982720A9EEF635DE5D04082D8154D /* Build configuration list for PBXNativeTarget "Notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7C6E4A9C647908A4AD827F7B962101 /* Debug */,
+				2DB7EA8189BB0A586A627E00458ABAF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

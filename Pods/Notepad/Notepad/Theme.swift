@@ -16,7 +16,7 @@ public struct Theme {
     /// The body style for the Notepad editor.
     public fileprivate(set) var body: Style = Style()
     /// The background color of the Notepad.
-    public fileprivate(set) var backgroundColor: UniversalColor = UniversalColor.clear
+    public fileprivate(set) var backgroundColor: UniversalColor = UniversalColor.white
     /// The tint color (AKA cursor color) of the Notepad.
     public fileprivate(set) var tintColor: UniversalColor = UniversalColor.blue
 
@@ -45,6 +45,9 @@ public struct Theme {
         else if let path3 = bundle.path(forResource: "themes/\(name)", ofType: "json") {
 
             path = path3
+        }else if let path4 = bundle.path(forResource: name, ofType: "json") {
+            
+            path = path4
         }
         else {
             
@@ -74,21 +77,14 @@ public struct Theme {
 
         if var allStyles = data["styles"] as? [String: AnyObject] {
             if let bodyStyles = allStyles["body"] as? [String: AnyObject] {
-                if var parsedBodyStyles = parse(bodyStyles) {
-                    if #available(iOS 13.0, *) {
-                        if parsedBodyStyles[NSAttributedString.Key.foregroundColor] == nil {
-                            parsedBodyStyles[NSAttributedString.Key.foregroundColor] = UniversalColor.label
-                        }
-                    }
+                if let parsedBodyStyles = parse(bodyStyles) {
                     body = Style(element: .body, attributes: parsedBodyStyles)
                 }
             }
             else { // Create a default body font so other styles can inherit from it.
-                var textColor = UniversalColor.black
-                if #available(iOS 13.0, *) {
-                    textColor = UniversalColor.label
-                }
-                let attributes = [NSAttributedString.Key.foregroundColor: textColor]
+                let attributes = [
+                    NSAttributedString.Key.foregroundColor: UniversalColor.black
+                ]
                 body = Style(element: .body, attributes: attributes)
             }
 
@@ -140,7 +136,32 @@ public struct Theme {
         let fontTraits = attributes["traits"] as? String ?? ""
         var font: UniversalFont?
         
-        if let fontName = attributes["font"] as? String, fontName != "System" {
+        if let fontKind = attributes["preferredFont"] as? String {
+            let style:UIFont.TextStyle
+            if #available(iOS 9.0, *) {
+                switch fontKind {
+                case "body":
+                    style = .body
+                case "title1":
+                    style = .title1
+                case "title2":
+                    style = .title2
+                case "title3":
+                    style = .title3
+                case "footnote":
+                    style = .footnote
+                case "headline":
+                    style = .headline
+                case "subheadline":
+                    style = .subheadline
+                default:
+                    style = .body
+                }
+            } else {
+                style = .body
+            }
+            font = UniversalFont.preferredFont(forTextStyle: style).with(traits: fontTraits, size: fontSize)
+        }else if let fontName = attributes["font"] as? String, fontName != "System" {
             // use custom font if set
             font = UniversalFont(name: fontName, size: fontSize)?.with(traits: fontTraits, size: fontSize)
         } else if let bodyFont = bodyFont, bodyFont.fontName != "System" {

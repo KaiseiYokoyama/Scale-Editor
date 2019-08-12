@@ -9,8 +9,8 @@ target 'Scale Editor' do
   # pod "markymark"
   # pod "MarkdownTextView"
   # pod 'CDMarkdownKit', '1.2.1'
-   pod 'Notepad', '~> 0.3'
-#   pod 'Notepad', :git => 'https://github.com/shusain93/Notepad'
+  #  pod 'Notepad', '~> 0.3'
+  pod 'Notepad', :git => 'https://github.com/shusain93/Notepad'
 
   target 'Scale EditorTests' do
     inherit! :search_paths

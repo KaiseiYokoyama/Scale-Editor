@@ -32,6 +32,7 @@ class SummaryEditorController: UIViewController {
         let path = Bundle.main.path(forResource: "one-light-custom", ofType: "json")
         let theme = Theme(themePath: path!)
         notepad = Notepad(frame: view.bounds, theme: theme)
+        notepad.textContainerInset = UIEdgeInsets(top: 30, left: 30, bottom: 30, right: 30)
         notepad.delegate = self
         notepad.text = scale.summary
         view.addSubview(notepad)

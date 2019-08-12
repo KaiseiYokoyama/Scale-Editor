@@ -24,6 +24,7 @@ class MarkdownViewController: UIViewController {
         let theme = Theme(themePath: path!)
 
         notepad = Notepad(frame: view.bounds, theme: theme)
+        notepad.textContainerInset = UIEdgeInsets(top: 30, left: 30, bottom: 30, right: 30)
         notepad.delegate = self
         view.addSubview(notepad)
     }

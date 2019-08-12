@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3142025723003FDC00A25821 /* SummaryNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3142025623003FDC00A25821 /* SummaryNavigationController.swift */; };
 		314202592300438200A25821 /* SummaryEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314202582300438200A25821 /* SummaryEditorController.swift */; };
+		31420262230143D700A25821 /* browse.png in Resources */ = {isa = PBXBuildFile; fileRef = 31420260230143D600A25821 /* browse.png */; };
+		31420263230143D700A25821 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 31420261230143D600A25821 /* edit.png */; };
 		31578286230008E0004DE8C7 /* solarized-light.json in Resources */ = {isa = PBXBuildFile; fileRef = 3157827C230008E0004DE8C7 /* solarized-light.json */; };
 		31578287230008E0004DE8C7 /* one-light.json in Resources */ = {isa = PBXBuildFile; fileRef = 3157827D230008E0004DE8C7 /* one-light.json */; };
 		31578288230008E0004DE8C7 /* one-light-custom.json in Resources */ = {isa = PBXBuildFile; fileRef = 3157827E230008E0004DE8C7 /* one-light-custom.json */; };
@@ -58,6 +60,8 @@
 /* Begin PBXFileReference section */
 		3142025623003FDC00A25821 /* SummaryNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryNavigationController.swift; sourceTree = "<group>"; };
 		314202582300438200A25821 /* SummaryEditorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryEditorController.swift; sourceTree = "<group>"; };
+		31420260230143D600A25821 /* browse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browse.png; sourceTree = "<group>"; };
+		31420261230143D600A25821 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
 		3157827C230008E0004DE8C7 /* solarized-light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "solarized-light.json"; sourceTree = "<group>"; };
 		3157827D230008E0004DE8C7 /* one-light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "one-light.json"; sourceTree = "<group>"; };
 		3157827E230008E0004DE8C7 /* one-light-custom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "one-light-custom.json"; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		31578292230015F5004DE8C7 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				31420260230143D600A25821 /* browse.png */,
+				31420261230143D600A25821 /* edit.png */,
 				315782972300188B004DE8C7 /* summary.png */,
 			);
 			path = images;
@@ -362,6 +368,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31420262230143D700A25821 /* browse.png in Resources */,
+				31420263230143D700A25821 /* edit.png in Resources */,
 				3157828B230008E0004DE8C7 /* system-minimal.json in Resources */,
 				31578289230008E0004DE8C7 /* base16-tomorrow-dark.json in Resources */,
 				3157828D230008E0004DE8C7 /* solarized-dark.json in Resources */,

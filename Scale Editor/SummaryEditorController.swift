@@ -13,7 +13,18 @@ class SummaryEditorController: UIViewController {
 
     var scale: Scale!
     var notepad: Notepad!
+    
+    static var mode = Mode.Edit
 
+    @IBAction func modeChanged(_ sender: UISegmentedControl) {
+        print("SummaryEditorController: mode")
+        if let mode_ = Mode(rawValue: sender.selectedSegmentIndex) {
+            SummaryEditorController.mode = mode_
+        }
+        
+        justifyMode()
+    }
+    
     @IBAction func back(_ sender: Any) {
         guard let close = self.parent?.parent else {
             return
@@ -35,7 +46,20 @@ class SummaryEditorController: UIViewController {
         notepad.textContainerInset = UIEdgeInsets(top: 30, left: 30, bottom: 30, right: 30)
         notepad.delegate = self
         notepad.text = scale.summary
+        
+        justifyMode()
+        
         view.addSubview(notepad)
+    }
+    
+    func justifyMode() {
+        switch SummaryEditorController.mode {
+        case Mode.Browse:
+            print("SummaryEditorController: editable false")
+            notepad.isEditable = false
+        default:
+            notepad.isEditable = true
+        }
     }
     
     /*

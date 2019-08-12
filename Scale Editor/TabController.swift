@@ -27,6 +27,8 @@ class TabController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Tab Controller"
 
         // Do any additional setup after loading the view.
         for viewContoller in viewControllers! {

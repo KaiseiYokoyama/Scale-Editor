@@ -11,9 +11,9 @@ import Notepad
 
 class MarkdownViewController: UIViewController {
     
-    var scale : Scale = ScaleRoot.root
+    var scale : Scale!
     var notepad: Notepad!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +24,7 @@ class MarkdownViewController: UIViewController {
         let theme = Theme(themePath: path!)
 
         notepad = Notepad(frame: view.bounds, theme: theme)
+        notepad.delegate = self
         view.addSubview(notepad)
     }
     
@@ -31,6 +32,14 @@ class MarkdownViewController: UIViewController {
         notepad.text = markdown
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.destination {
+        case let summaryViewController as SummaryViewController:
+            summaryViewController.scale = scale
+        default:
+            print("\(type(of: segue.destination))")
+        }
+    }
 
     /*
     // MARK: - Navigation
@@ -42,4 +51,10 @@ class MarkdownViewController: UIViewController {
     }
     */
 
+}
+
+extension MarkdownViewController: UITextViewDelegate {
+    func textViewDidChange(_ textView: UITextView) {
+        scale.summary = textView.text
+    }
 }

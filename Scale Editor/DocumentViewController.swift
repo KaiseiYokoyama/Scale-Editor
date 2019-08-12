@@ -10,8 +10,8 @@ import UIKit
 
 class DocumentViewController: UINavigationController {
 
-    var scale: Scale = ScaleRoot.root
-
+    var scale: Scale!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

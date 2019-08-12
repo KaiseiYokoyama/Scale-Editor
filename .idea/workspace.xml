@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8280ccb6-0899-4915-9617-ceb27f8ea1a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Scale Editor/SummaryEditorController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scale Editor/themes/dark.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scale Editor/themes/light.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scale Editor.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Scale Editor.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scale Editor/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Scale Editor/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scale Editor/MarkdownViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Scale Editor/MarkdownViewController.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565367274698</updated>
       <workItem from="1565367280700" duration="11933000" />
-      <workItem from="1565510762709" duration="976000" />
+      <workItem from="1565510762709" duration="2341000" />
     </task>
     <servers />
   </component>

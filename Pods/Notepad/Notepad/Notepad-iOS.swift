@@ -9,7 +9,7 @@
 #if os(iOS)
 import UIKit
 
-public class Notepad: UITextView {
+open class Notepad: UITextView {
 
     var storage: Storage = Storage()
 

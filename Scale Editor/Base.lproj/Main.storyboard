@@ -36,7 +36,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="emb-YF-6wF"/>
                     </view>
-                    <navigationItem key="navigationItem" id="yDQ-Bt-TMC"/>
+                    <navigationItem key="navigationItem" id="Yuw-fk-Fiv">
+                        <barButtonItem key="rightBarButtonItem" title="Description" image="summary.png" style="plain" id="Wtw-hQ-9Vo">
+                            <connections>
+                                <segue destination="jLh-ZN-ttH" kind="presentation" id="vzv-y5-iGP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3QC-FB-vy0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,14 +67,90 @@
             </objects>
             <point key="canvasLocation" x="-906" y="-185"/>
         </scene>
+        <!--Summary View Controller-->
+        <scene sceneID="c0w-6A-x79">
+            <objects>
+                <viewController modalPresentationStyle="overCurrentContext" id="jLh-ZN-ttH" customClass="SummaryViewController" customModule="Scale_Editor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="78L-qP-hfd">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LlP-Bu-3GG">
+                                <rect key="frame" x="60" y="100" width="648" height="814"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="GR1-2d-f6A" kind="embed" id="Hmh-2B-g3q"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LlP-Bu-3GG" firstAttribute="leading" secondItem="uMn-ga-10F" secondAttribute="leading" constant="60" id="11H-QN-18q"/>
+                            <constraint firstItem="uMn-ga-10F" firstAttribute="trailing" secondItem="LlP-Bu-3GG" secondAttribute="trailing" constant="60" id="36U-DW-srJ"/>
+                            <constraint firstItem="LlP-Bu-3GG" firstAttribute="top" secondItem="uMn-ga-10F" secondAttribute="top" constant="80" id="6ni-ej-pWl"/>
+                            <constraint firstItem="uMn-ga-10F" firstAttribute="bottom" secondItem="LlP-Bu-3GG" secondAttribute="bottom" constant="60" id="Ysw-gb-GSI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uMn-ga-10F"/>
+                    </view>
+                    <connections>
+                        <outlet property="embedView" destination="LlP-Bu-3GG" id="Dlu-h9-Xq9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LQd-4t-gc3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1393" y="-506"/>
+        </scene>
+        <!--Summary Navigation Controller-->
+        <scene sceneID="kx3-yD-RDY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UOQ-XN-FSy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController modalPresentationStyle="currentContext" id="GR1-2d-f6A" customClass="SummaryNavigationController" customModule="Scale_Editor" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0bq-gB-wX5">
+                        <rect key="frame" x="0.0" y="20" width="648" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tdJ-KA-Mfc" kind="relationship" relationship="rootViewController" id="5M9-Yk-bcn"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="2211" y="-506"/>
+        </scene>
+        <!--Summary Editor Controller-->
+        <scene sceneID="eai-zQ-oRd">
+            <objects>
+                <viewController id="tdJ-KA-Mfc" customClass="SummaryEditorController" customModule="Scale_Editor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RwF-S5-EqJ">
+                        <rect key="frame" x="0.0" y="0.0" width="648" height="814"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9rv-Rp-2Zt"/>
+                    </view>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="SM2-Ok-guA">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="8Q0-y7-r6M">
+                            <connections>
+                                <action selector="back:" destination="tdJ-KA-Mfc" id="uqZ-Y7-bpx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sNE-Y3-djw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2946" y="-506"/>
+        </scene>
         <!--Item 1-->
         <scene sceneID="Vh6-4x-1Ar">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mEh-wm-Nu4" customClass="DocumentViewController" customModule="Scale_Editor" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item 1" id="agH-ee-DO0"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U0a-f4-6qK">
-                        <rect key="frame" x="0.0" y="20" width="768" height="50"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="U0a-f4-6qK">
+                        <rect key="frame" x="0.0" y="20" width="768" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -82,4 +164,7 @@
             <point key="canvasLocation" x="-134.375" y="-506.24999999999994"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="summary.png" width="48" height="48"/>
+    </resources>
 </document>

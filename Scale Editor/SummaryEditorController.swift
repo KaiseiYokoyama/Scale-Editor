@@ -57,7 +57,7 @@ class SummaryEditorController: UIViewController {
         case Mode.Browse:
             print("SummaryEditorController: editable false")
             notepad.isEditable = false
-        default:
+        case Mode.Edit:
             notepad.isEditable = true
         }
     }

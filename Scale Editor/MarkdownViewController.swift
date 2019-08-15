@@ -56,7 +56,7 @@ class MarkdownViewController: UIViewController {
         switch MarkdownViewController.mode {
         case Mode.Browse:
             notepad.isEditable = false
-        default:
+        case Mode.Edit:
             notepad.isEditable = true
         }
     }
@@ -84,6 +84,6 @@ class MarkdownViewController: UIViewController {
 
 extension MarkdownViewController: UITextViewDelegate {
     func textViewDidChange(_ textView: UITextView) {
-        scale.summary = textView.text
+        scale.description = textView.text
     }
 }

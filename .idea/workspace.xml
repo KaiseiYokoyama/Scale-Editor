@@ -3,27 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8280ccb6-0899-4915-9617-ceb27f8ea1a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/Notepad.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/Notepad.podspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/Notepad-iOS.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Notepad/Notepad/Notepad-iOS.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/Theme.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Notepad/Notepad/Theme.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/base16-tomorrow-dark.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/base16-tomorrow-light.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/blues-clues.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/one-dark-custom.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/one-dark.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/one-light-custom.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/one-light.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/solarized-dark.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/solarized-light.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Notepad/Notepad/themes/system-minimal.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Murakumo.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/Murakumo.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Notepad/Notepad-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Notepad/Notepad-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scale Editor.xcodeproj/xcuserdata/Murakumo.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Scale Editor.xcodeproj/xcuserdata/Murakumo.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scale Editor/MarkdownViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Scale Editor/MarkdownViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scale Editor/SummaryEditorController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Scale Editor/SummaryEditorController.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +76,8 @@
       <updated>1565367274698</updated>
       <workItem from="1565367280700" duration="11933000" />
       <workItem from="1565510762709" duration="2341000" />
-      <workItem from="1565590290466" duration="192000" />
+      <workItem from="1565590290466" duration="468000" />
+      <workItem from="1565836956290" duration="87000" />
     </task>
     <servers />
   </component>
